@@ -1,3 +1,5 @@
+import { Home } from "./pages/Home";
+
 export function App() {
-  return <div className="text-title-500">Github blog</div>;
+  return <Home />;
 }

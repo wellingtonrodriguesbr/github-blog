@@ -37,6 +37,9 @@ module.exports = {
           500: "#040F1A",
         },
       },
+      backgroundImage: {
+        "bg-cover": "url(./src/assets/Cover.jpg)",
+      },
     },
   },
   plugins: [],
