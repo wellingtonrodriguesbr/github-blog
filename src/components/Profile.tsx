@@ -47,7 +47,7 @@ export function Profile() {
             </div>
             <p className="text-base text-text-500 mt-2">{data.bio}</p>
           </div>
-          <footer className="flex gap-6 items-center">
+          <footer className="flex gap-6 items-center mt-auto">
             <p className="text-base text-subtitle-500 flex gap-2 items-center">
               <FontAwesomeIcon icon={faGithub} size="lg" />
               {data.login}
